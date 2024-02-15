@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Rubik:wght@400;600&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  height: 50px;
+  width: 95%;
+}
+
+#kw-logo>img {
+  height: 30px;
+}
+
+#cart-icon>img {
+  height: 30px;
+}
+
+#cart-icon>h2 {
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 5px;
+  margin-left: 4px;
+}
+
+#cart-icon {
+  display: flex;
+}
+
+#header {
+  background-image: url(./assets/kw-background.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 300px;
+  bottom: 100px;
+}
+
+#header-text {
+  margin-left: 5%;
+  padding-top: 10px;
+  color: white;
+}
+
+.book-card>img {
+  height: 325px;
+  width: 100%;
+}
+
+.book-card {
+  border: 10px solid white;
+  width: 25%;
+}
+
+#book-section {
+  display: flex;
+}
+
+.add-button {
+  display: flex;
+  background-color: blue;
+  width: 60px;
+  height: 35px;
+  border: 1px solid blue;
+  border-radius: 7px;
+  margin-left: 65px;
+  margin-top: -45px;
+}
+
+.add-button>img {
+  width: 25px;
+  height: 25px;
+}
+
+.add-button>h4 {
+  margin-top: 7px;
+}
+
+#games-section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.games-card {
+  width: 20%;
+}
+
+.games-card>img {
+  width: 100%;
+}
+
+#craft-section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.craft-card {
+  width: 20%;
+}
+
+.craft-card>img {
+  width: 100%;
+}
+
+.main {
+  margin-top: 110px;
+}
+
+footer {
+  margin-top: 110px;
+  background-color: black;
+  height: 300px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+#p1>img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+footer>h5 {
+  background-color: black;
+  color: white;
+  margin: 0px;
+}
+
+footer>h4 {
+  margin-bottom: 0px;
+}
+
+#completion {
+  padding-right: 20px;
+}
+
+#p1 {
+  padding-left: 20px;
+}
+
+@media (max-width: 600px) {
+  #book-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .book-card {
+    width: 250px;
+  }
+
+  #games-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .games-card {
+    width: 200px;
+  }
+
+  #craft-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .craft-card {
+    width: 200px;
+  }
+}
